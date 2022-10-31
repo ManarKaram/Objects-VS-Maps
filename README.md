@@ -139,6 +139,7 @@ Checking the size
 Iterating
 
   **Map:** is built-in iterable.
+  
 ![image](https://user-images.githubusercontent.com/59695197/199073973-daa8e28d-1044-4c2b-b998-fb5a50f53fc1.png)
 
 
