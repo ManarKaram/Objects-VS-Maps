@@ -50,24 +50,24 @@ How to construct?
 ![image](https://user-images.githubusercontent.com/59695197/199068949-76de1704-dbfd-44b2-850b-b7bda04ab65f.png)
 
 
-    **Object:**
+   **Object:**
 
       Object has several ways to declare.
 
       -Direct literal
       
-      ![image](https://user-images.githubusercontent.com/59695197/199069115-8c1afb43-7890-454b-b76b-793ff850a83c.png)
+![image](https://user-images.githubusercontent.com/59695197/199069115-8c1afb43-7890-454b-b76b-793ff850a83c.png)
 
 
       -by constructor
-      ![image](https://user-images.githubusercontent.com/59695197/199069199-f271f65c-8f19-48c3-b430-94b4817324e0.png)
+![image](https://user-images.githubusercontent.com/59695197/199069199-f271f65c-8f19-48c3-b430-94b4817324e0.png)
 
 
       -by using _ **Object.prototype.create** _
-      ![image](https://user-images.githubusercontent.com/59695197/199069280-091f7e00-70ad-44ca-b087-ae4dca43c2a9.png)
+![image](https://user-images.githubusercontent.com/59695197/199069280-091f7e00-70ad-44ca-b087-ae4dca43c2a9.png)
 
       -by using **built-in constructor**
-       ![image](https://user-images.githubusercontent.com/59695197/199069439-1a30a872-73a7-44e6-b6ca-a998e5f8c03e.png)
+![image](https://user-images.githubusercontent.com/59695197/199069439-1a30a872-73a7-44e6-b6ca-a998e5f8c03e.png)
 
 
   Accessing elements
