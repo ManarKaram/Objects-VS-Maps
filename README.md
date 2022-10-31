@@ -91,73 +91,73 @@ How to construct?
 
   Checking if element is exist
 
-    **Map:** Map uses it's **inbuilt has() method** for this.
-    ![image](https://user-images.githubusercontent.com/59695197/199070068-feeba5c4-391b-4648-baa6-b8cfe3b57f0d.png)
+   **Map:** Map uses it's **inbuilt has() method** for this.
+![image](https://user-images.githubusercontent.com/59695197/199070068-feeba5c4-391b-4648-baa6-b8cfe3b57f0d.png)
 
 
-    **Object:**  Object uses **'===' operator** for performing the task.
-    ![image](https://user-images.githubusercontent.com/59695197/199070186-889b9819-2437-4743-9282-8b32baa9f86e.png)
+   **Object:**  Object uses **'===' operator** for performing the task.
+ ![image](https://user-images.githubusercontent.com/59695197/199070186-889b9819-2437-4743-9282-8b32baa9f86e.png)
 
 
 
 Removing element
 
-**Map:**
+  **Map:**
 
-**-Delete item.**
+   **-Delete item.**
 
-Map uses it's **inbuilt** **delete()** that returns a Boolean value.
+      Map uses it's **inbuilt** **delete()** that returns a Boolean value.
+![image](https://user-images.githubusercontent.com/59695197/199073315-26bcaa1b-2d70-412c-9327-cc3d0be5cc5a.png)
 
-![](RackMultipart20221031-1-i61x9w_html_d3f9955a7b890b38.png)
+   **-Delete MapSet.**
 
-**-Delete MapSet.**
+      Map uses it's **inbuilt** **clear()** that will remove all Map elements.
+![image](https://user-images.githubusercontent.com/59695197/199073359-7f183ea4-9c1e-48b7-a861-63ceb7e0df31.png)
 
-Map uses it's **inbuilt** **clear()** that will remove all Map elements.
+  **Object:**  
+      there is no built-in method to delete a property from it. Instead, we can use the operator  **delete**.
+![image](https://user-images.githubusercontent.com/59695197/199073589-6288e8b2-f43f-4b32-8091-dcc937c92387.png)
+![image](https://user-images.githubusercontent.com/59695197/199073623-0dd68223-50bd-4b96-a294-c14b7851bd62.png)
 
-![](RackMultipart20221031-1-i61x9w_html_5c18d91f1d1bd80d.png)
+      Or we can **" undefine "** the element itself as follows:
+![image](https://user-images.githubusercontent.com/59695197/199073676-9cdc6627-092e-49de-97d6-50902d2b6aa0.png)
 
-**Object:**  there is no built-in method to delete a property from it. Instead, we can use the operator  **delete**.
 
-![](RackMultipart20221031-1-i61x9w_html_aa15ceb0ac7d70d7.png)
-
-![](RackMultipart20221031-1-i61x9w_html_618827ffad3b18a3.png)
-
-Or we can **" undefine "** the element itself as follows:
-
-![](RackMultipart20221031-1-i61x9w_html_24031f2c59700c47.png)
 
 Checking the size
 
-**Map:** Map automatically updates its size and get the easiest.
+  **Map:** Map automatically updates its size and get the easiest.
+![image](https://user-images.githubusercontent.com/59695197/199073801-293ed37e-3a9d-4f8d-b66f-4bb8d1c2e864.png)
 
-![](RackMultipart20221031-1-i61x9w_html_9919bfd08ede7efe.png)
 
-**Object:**  it needs to be calculated manually, with the help of _**Object.keys()**_
+  **Object:**  it needs to be calculated manually, with the help of _**Object.keys()**_
 
-![](RackMultipart20221031-1-i61x9w_html_7ecd7a9be078c03a.png)
+![image](https://user-images.githubusercontent.com/59695197/199073862-7f5cf9ff-36dd-4a32-86d1-d72c926857cd.png)
+
+
 
 Iterating
 
-**Map:** is built-in iterable.
+  **Map:** is built-in iterable.
+![image](https://user-images.githubusercontent.com/59695197/199073973-daa8e28d-1044-4c2b-b998-fb5a50f53fc1.png)
 
-![](RackMultipart20221031-1-i61x9w_html_92c46c9d55c181c9.png)
 
-**Object**** : **either we use**" **_** for… in **_**" **Or using ** Object.keys(obj)** to get all the keys and iterate
 
-![](RackMultipart20221031-1-i61x9w_html_e169fb8dec229af3.png)
+  **Object**** : **either we use**" **_** for… in **_**" **Or using ** Object.keys(obj)** to get all the keys and iterate
 
-![](RackMultipart20221031-1-i61x9w_html_46477d01e5f4744.png)
+![image](https://user-images.githubusercontent.com/59695197/199074011-474729db-6295-4836-add1-822c10824fab.png)
+
+![image](https://user-images.githubusercontent.com/59695197/199074042-2942ced7-5ce8-4654-a852-0d1ddb100421.png)
+
 
 Conclusion
 
-Despite all the advantages  **Map**  can have against  **Object** , there is still cases  **Object**  will perform better. After all, Object is the most basic concept of Javascript.
+      Despite all the advantages  **Map**  can have against  **Object** , there is still cases  **Object**  will perform better. After all, Object is the most basic    concept of Javascript.
 
-- Objects are a great choice for situations where we need simple structure to store data and the type of keys needed is either an integer, strings or symbols.
-- Scenarios which needs the application of separate logic to individual property element, the object is definitely the choice.
-- Map is completely hash whereas Object is more than that.
+      - Objects are a great choice for situations where we need simple structure to store data and the type of keys needed is either an integer, strings or symbols.
+      - Scenarios which needs the application of separate logic to individual property element, the object is definitely the choice.
+      - Map is completely hash whereas Object is more than that.
 
-Map tends to have more advantages over  **Object**  in scenarios when we just need a simple look-up structure for data storing, with all the basic operations it provided. However,  **Map**  can't never replace  **Object** , in any sense, because in Javascript,  **Object**  is — after all —  **more than just**  a normal hash table (_and therefore shouldn't be used as a normal hash table if there is alternative, it's just a waste of a great resource ;)_).
+      Map tends to have more advantages over  **Object**  in scenarios when we just need a simple look-up structure for data storing, with all the basic operations it provided. However,  **Map**  can't never replace  **Object** , in any sense, because in Javascript,  **Object**  is — after all —  **more than just**  a normal hash table (_and therefore shouldn't be used as a normal hash table if there is alternative, it's just a waste of a great resource ;)_).
 
-![Shape1](RackMultipart20221031-1-i61x9w_html_2a32c2bc2658c81d.gif)
 
-C2 General
