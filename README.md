@@ -53,6 +53,7 @@ Usage of them
       Object has several ways to declare.
 
       -Direct literal
+      
       ![image](https://user-images.githubusercontent.com/59695197/199069115-8c1afb43-7890-454b-b76b-793ff850a83c.png)
 
 
