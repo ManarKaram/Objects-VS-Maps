@@ -21,80 +21,81 @@
 
 What's Map and Object?
 
-Map:
+  Map:
 
-- Map is a data collection type (_abstract data structure type_), in which, data is stored in a form of  **pairs** , which contains a  **unique**   **key**  and  **value mapped to that key**. And because of the uniqueness of each stored key, there is  **no duplicate**  pair stored.
-- Map is mainly used for  **fast searching and looking up**  data.
+  - Map is a data collection type (_abstract data structure type_), in which, data is stored in a form of  **pairs** , which contains a  **unique**   **key**  and  **value mapped to that key**. And because of the uniqueness of each stored key, there is  **no duplicate**  pair stored.
+  - Map is mainly used for  **fast searching and looking up**  data.
 
-Object:
+  Object:
 
-- Object is object (_ **Regular** _** Object),** _type_ of data collection, which means it also  **follows key-value stored concept**  like Map. Each  **key**  in Object or we normally call it "property" which is also  **unique**  and  **associated with a single value**.
-- Object in JavaScript has  **built-in prototype** and is used **to manipulate values an combine them into more complex objects**.
+  - Object is object (_ **Regular** _** Object),** _type_ of data collection, which means it also  **follows key-value stored concept**  like Map. Each  **key**  in Object or we normally call it "property" which is also  **unique**  and  **associated with a single value**.
+  - Object in JavaScript has  **built-in prototype** and is used **to manipulate values an combine them into more complex objects**.
 
 Differences between Map and Object
 
-| Map | Object |
-| --- | --- |
-| the key-field can be of any data-type (integer, an array, even an object!) | the data-type of the key-field is restricted to integer, strings, and symbols |
-| the original order of elements is preserved | the original order of elements isn't preserved |
-| Map is an instance of an object | Object isn't an instance of map but is instance of classes |
-| Json don't support maps | Json support objects |
+  | Map | Object |
+  | --- | --- |
+  | the key-field can be of any data-type (integer, an array, even an object!) | the data-type of the key-field is restricted to integer, strings, and symbols |
+  | the original order of elements is preserved | the original order of elements isn't preserved |
+  | Map is an instance of an object | Object isn't an instance of map but is instance of classes |
+  | Json don't support maps | Json support objects |
 
 Usage of them
-How to construct?
-**Map:**
+  How to construct?
+    **Map:**
 
-Map is constructed and declared by using its built-in constructor and _new_ syntax.
+      Map is constructed and declared by using its built-in constructor and _new_ syntax.
+      ![image](https://user-images.githubusercontent.com/59695197/199068949-76de1704-dbfd-44b2-850b-b7bda04ab65f.png)
 
-![](RackMultipart20221031-1-i61x9w_html_cdabc9f6fc38203d.png)
 
-**Object:**
+    **Object:**
 
-Object has several ways to declare.
+      Object has several ways to declare.
 
--Direct literal
+      -Direct literal
+      ![image](https://user-images.githubusercontent.com/59695197/199069115-8c1afb43-7890-454b-b76b-793ff850a83c.png)
 
-![](RackMultipart20221031-1-i61x9w_html_e9335d1d360bd624.png)
 
--by constructor
+      -by constructor
+      ![image](https://user-images.githubusercontent.com/59695197/199069199-f271f65c-8f19-48c3-b430-94b4817324e0.png)
 
-![](RackMultipart20221031-1-i61x9w_html_d564cb73de8cd942.png)
 
--by using _ **Object.prototype.create** _
+      -by using _ **Object.prototype.create** _
+      ![image](https://user-images.githubusercontent.com/59695197/199069280-091f7e00-70ad-44ca-b087-ae4dca43c2a9.png)
 
-![](RackMultipart20221031-1-i61x9w_html_7171bb713a40c177.png)
+      -by using **built-in constructor**
+       ![image](https://user-images.githubusercontent.com/59695197/199069439-1a30a872-73a7-44e6-b6ca-a998e5f8c03e.png)
 
--by using **built-in constructor**
- ![](RackMultipart20221031-1-i61x9w_html_c2b9dcf3a075e1ec.png)
 
-Accessing elements
+  Accessing elements
 
-**Map:** Map uses its inbuilt **get() method** for accessing its elements.
+    **Map:** Map uses its inbuilt **get() method** for accessing its elements.
+    ![image](https://user-images.githubusercontent.com/59695197/199069736-d5be9d4c-56d6-447b-bf5f-778fb823938e.png)
 
-![](RackMultipart20221031-1-i61x9w_html_685c423599ac5532.png)
 
-**Object:** Objectsimply uses the _'key'_ name with a dot **(.) operator** to access its elements.
- ![](RackMultipart20221031-1-i61x9w_html_bad19fa37c3dbd9a.png)
+    **Object:** Objectsimply uses the _'key'_ name with a dot **(.) operator** to access its elements.
+     ![image](https://user-images.githubusercontent.com/59695197/199069852-3711e86d-fb40-4c02-a525-da40ac1c030d.png)
 
-Adding new elements
 
-**Map:** Map uses **set() method** to add new element.
+  Adding new elements
 
-![](RackMultipart20221031-1-i61x9w_html_c8a1dd304050a16d.png)
+    **Map:** Map uses **set() method** to add new element.
+    ![image](https://user-images.githubusercontent.com/59695197/199069921-5d7f0103-634e-4972-a120-0b93ec31408e.png)
 
-**Object:**  it is done directly.
+    **Object:**  it is done directly.
+    ![image](https://user-images.githubusercontent.com/59695197/199069991-4544eb3f-6d67-4706-8a89-b17e24908a62.png)
 
-![](RackMultipart20221031-1-i61x9w_html_71dfc2fa95647ae1.png)
 
-Checking if element is exist
+  Checking if element is exist
 
-**Map:** Map uses it's **inbuilt has() method** for this.
+    **Map:** Map uses it's **inbuilt has() method** for this.
+    ![image](https://user-images.githubusercontent.com/59695197/199070068-feeba5c4-391b-4648-baa6-b8cfe3b57f0d.png)
 
-![](RackMultipart20221031-1-i61x9w_html_580cdada1b13d1ae.png)
 
-**Object:**  Object uses **'===' operator** for performing the task.
+    **Object:**  Object uses **'===' operator** for performing the task.
+    ![image](https://user-images.githubusercontent.com/59695197/199070186-889b9819-2437-4743-9282-8b32baa9f86e.png)
 
-![](RackMultipart20221031-1-i61x9w_html_b46344a1ad59e4c4.png)
+
 
 Removing element
 
