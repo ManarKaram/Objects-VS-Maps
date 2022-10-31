@@ -72,21 +72,21 @@ How to construct?
 
   Accessing elements
 
-    **Map:** Map uses its inbuilt **get() method** for accessing its elements.
-    ![image](https://user-images.githubusercontent.com/59695197/199069736-d5be9d4c-56d6-447b-bf5f-778fb823938e.png)
+   **Map:** Map uses its inbuilt **get() method** for accessing its elements.
+![image](https://user-images.githubusercontent.com/59695197/199069736-d5be9d4c-56d6-447b-bf5f-778fb823938e.png)
 
 
-    **Object:** Objectsimply uses the _'key'_ name with a dot **(.) operator** to access its elements.
-     ![image](https://user-images.githubusercontent.com/59695197/199069852-3711e86d-fb40-4c02-a525-da40ac1c030d.png)
+   **Object:** Objectsimply uses the _'key'_ name with a dot **(.) operator** to access its elements.
+![image](https://user-images.githubusercontent.com/59695197/199069852-3711e86d-fb40-4c02-a525-da40ac1c030d.png)
 
 
   Adding new elements
 
-    **Map:** Map uses **set() method** to add new element.
-    ![image](https://user-images.githubusercontent.com/59695197/199069921-5d7f0103-634e-4972-a120-0b93ec31408e.png)
+   **Map:** Map uses **set() method** to add new element.
+![image](https://user-images.githubusercontent.com/59695197/199069921-5d7f0103-634e-4972-a120-0b93ec31408e.png)
 
-    **Object:**  it is done directly.
-    ![image](https://user-images.githubusercontent.com/59695197/199069991-4544eb3f-6d67-4706-8a89-b17e24908a62.png)
+   **Object:**  it is done directly.
+![image](https://user-images.githubusercontent.com/59695197/199069991-4544eb3f-6d67-4706-8a89-b17e24908a62.png)
 
 
   Checking if element is exist
