@@ -41,13 +41,13 @@ Differences between Map and Object
   | Json don't support maps | Json support objects |
 
 Usage of them
-  How to construct?
+How to construct?
   
-    **Map:**
+  **Map:**
 
       Map is constructed and declared by using its built-in constructor and _new_ syntax.
       
-        ![image](https://user-images.githubusercontent.com/59695197/199068949-76de1704-dbfd-44b2-850b-b7bda04ab65f.png)
+![image](https://user-images.githubusercontent.com/59695197/199068949-76de1704-dbfd-44b2-850b-b7bda04ab65f.png)
 
 
     **Object:**
